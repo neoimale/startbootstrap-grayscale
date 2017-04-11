@@ -1,14 +1,14 @@
 /*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  font-family: sans-serif, "Lora", "Helvetica Neue", Helvetica, Arial;
+  color: #4A4A4A;
+  background-color: #F6F6F7;
 }
 html {
   width: 100%;
@@ -27,13 +27,13 @@ h6 {
   letter-spacing: 1px;
 }
 p {
-  margin: 0 0 25px;
+  margin: 0 0 5px;
   font-size: 18px;
   line-height: 1.5;
 }
 @media (min-width: 768px) {
   p {
-    margin: 0 0 35px;
+    margin: 0 0 10px;
     font-size: 20px;
     line-height: 1.6;
   }
@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/banner1.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -134,23 +134,38 @@ a:focus {
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
+  text-align: left;
 }
 .intro .intro-body .brand-heading {
-  font-size: 40px;
+  font-size: 36px;
+  font-weight: 600;
 }
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.intro .intro-leave {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
 }
 @media (min-width: 768px) {
   .intro {
     height: 100%;
     padding: 0;
   }
+  .intro .intro-body {
+    text-align: left;
+  }
   .intro .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 48px;
+    font-weight: 600;
   }
   .intro .intro-body .intro-text {
-    font-size: 26px;
+    font-size: 22px;
+    font-weight: 500;
   }
 }
 .btn-circle {
@@ -237,9 +252,9 @@ a:focus {
   margin-top: 100px;
 }
 @media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
-  }
+  /*.content-section {
+        padding-top: 250px;
+    }*/
   .download-section {
     padding: 100px 0;
   }
@@ -292,6 +307,7 @@ footer {
 }
 footer p {
   margin: 0;
+  font-size: 14px;
 }
 ::-moz-selection {
   text-shadow: none;
@@ -311,4 +327,58 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+/* add by Neo */
+.navbar-brand {
+  padding: 0 15px;
+}
+.navbar-brand #logo {
+  width: 60px;
+  height: 30px;
+  margin: 10px 0;
+}
+.btn-hidian {
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 0px;
+  margin-top: 15px;
+  line-height: 45px;
+  background-image: url('../img/btn-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.btn-hidian:focus,
+.btn-hidian:hover {
+  color: white;
+}
+#introduce {
+  padding-bottom: 45px;
+}
+#introduce .intro-title {
+  color: #38D853;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+#introduce img {
+  margin: 30px 0;
+  width: 250px;
+  height: 250px;
+}
+#introduce p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#contact {
+  height: 550px;
+}
+#contact h2 {
+  margin-top: 120px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 70px;
 }
