@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/banner1.jpg) no-repeat bottom center scroll;
+  background: url(http://hidian-1253540602.cossh.myqcloud.com/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D%20.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -381,4 +381,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 70px;
+}
+.email {
+  color: #38D853;
 }
