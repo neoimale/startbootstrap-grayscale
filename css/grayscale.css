@@ -351,8 +351,10 @@ body {
   background-size: contain;
 }
 .btn-hidian:focus,
-.btn-hidian:hover {
+.btn-hidian:hover,
+.btn-hidian:active {
   color: white;
+  background-image: url('../img/btn-bg.png');
 }
 #introduce {
   padding-bottom: 45px;
