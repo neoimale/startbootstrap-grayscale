@@ -120,7 +120,7 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 100px 0;
   text-align: center;
   color: white;
@@ -134,7 +134,7 @@ a:focus {
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
-  text-align: left;
+  text-align: center;
 }
 .intro .intro-body .brand-heading {
   font-size: 36px;
@@ -153,7 +153,6 @@ a:focus {
 }
 @media (min-width: 768px) {
   .intro {
-    height: 100%;
     padding: 0;
   }
   .intro .intro-body {
@@ -363,7 +362,7 @@ body {
   color: #38D853;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 #introduce img {
   margin: 30px 0;
@@ -374,6 +373,11 @@ body {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  #introduce .intro-title {
+    margin-bottom: 70px;
+  }
 }
 #contact {
   height: 550px;

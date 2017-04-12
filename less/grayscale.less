@@ -124,7 +124,7 @@ a {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: white;
@@ -137,7 +137,7 @@ a {
     .intro-body {
         display: table-cell;
         vertical-align: middle;
-        text-align: left;
+        text-align: center;
         .brand-heading {
             font-size: 36px;
             font-weight: 600;
@@ -155,7 +155,6 @@ a {
         bottom: 50px;
     }
     @media(min-width:768px) {
-        height: 100%;
         padding: 0;
         .intro-body {
             text-align: left;
@@ -386,7 +385,7 @@ body {
         color: #38D853;
         font-size: 24px;
         font-weight: 700;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     img {
@@ -399,6 +398,12 @@ body {
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 5px;
+    }
+
+    @media(min-width:768px) {
+        .intro-title {
+            margin-bottom: 70px;
+        }
     }
 }
 
